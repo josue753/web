@@ -1,15 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum vitae</title>
-</head>
-<body>
-    <h1>CV -IVAN RODRIGUEZ</h1>
-</body>
-</html>
-<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -17,9 +6,10 @@
   <title>Mi Currículum</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      padding: 20px;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to right, #ff7e5f, #feb47b); /* Degradado lindo */
+      margin: 0;
+      padding: 0;
     }
 
     .cv-container {
@@ -27,36 +17,103 @@
       padding: 30px;
       border-radius: 10px;
       max-width: 800px;
-      margin: auto; 
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin: 30px auto;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      font-size: 18px;
     }
 
-    h1, h2 {
+    h1 {
+      text-align: center;
       color: #333;
+      font-size: 36px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
     }
 
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    li {
+    h2 {
+      color: #ff7e5f;
       margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #555;
     }
 
     .section {
       margin-bottom: 30px;
     }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+      color: #444;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #ff7e5f;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: space-between;
+      background-color: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .contact-info div {
+      flex: 1;
+      text-align: center;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 20px;
+      color: #888;
+    }
+
+    /* Estilos para la explicación al final */
+    .explanation {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+    }
+
+    .explanation h3 {
+      color: #ff7e5f;
+      text-align: center;
+    }
+
+    .explanation ul {
+      padding-left: 20px;
+    }
+
+    .explanation ul li {
+      margin-bottom: 10px;
+      color: #444;
+    }
   </style>
 </head>
 <body>
   <div class="cv-container">
-    
     <h1>JOSUE RODRIGUEZ</h1>
-    <H2>DATOS</H2>
-    <p><strong>Email:</strong> ivanrodriguezgala.22gmail.com</p>
-    <p><strong>Teléfono:</strong> 0988178259</p>
-    <p><strong>edad:</strong> 19 años</p>
+
+    <div class="contact-info">
+      <div><strong>Email:</strong> ivanrodriguezgala.22gmail.com</div>
+      <div><strong>Teléfono:</strong> 0988178259</div>
+      <div><strong>Edad:</strong> 19 años</div>
+    </div>
+
     <div class="section">
       <h2>Perfil Profesional</h2>
       <p>Soy una persona proactiva con ganas de aprender, con conocimientos en desarrollo web y habilidades para trabajar en equipo.</p>
@@ -65,42 +122,45 @@
     <div class="section">
       <h2>Experiencia Laboral</h2>
       <ul>
-        <li><strong>kfc</strong> - Empresa (2023 - 2024)<br>CAJERO.</li>
-        <li><strong>TIA S.A</strong> - EMPRESA (2024 - 2025)<br>INVENTARIO.</li>
+        <li><span class="highlight">KFC</span> - Empresa (2023 - 2024) <br>CAJERO</li>
+        <li><span class="highlight">TIA S.A</span> - EMPRESA (2024 - 2025) <br>INVENTARIO</li>
       </ul>
     </div>
 
     <div class="section">
       <h2>Educación</h2>
       <ul>
-        <li><strong>Título:</strong>  3ro bachillerato</li>
-        <li><strong>titulo:</strong> SISTEMAS DE LA INFORMACION - UNIVERSIDAD DE GUAYAQUIL (2023 - 2028)</li>
+        <li><span class="highlight">Título:</span> 3ro Bachillerato</li>
+        <li><span class="highlight">Carrera:</span> Sistemas de la Información - Universidad de Guayaquil (2023 - 2028)</li>
       </ul>
     </div>
 
     <div class="section">
       <h2>Habilidades</h2>
       <ul>
-        
-        
         <li>Trabajo en equipo</li>
         <li>Responsabilidad y puntualidad</li>
       </ul>
     </div>
-  </div>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    body {
-      background: linear-gradient(to right, #ff7e5f, #feb47b); /* Degradado lindo */
-    }
-  </style>
-</head>
-<body>
-  
-</body>
-</html>
 
+    <div class="footer">
+      <p>Diseñado por Josue Rodriguez</p>
+    </div>
+  </div>
+
+  <!-- Explicación de los estilos utilizados -->
+  <div class="explanation">
+    <h3>Explicación de los estilos utilizados</h3>
+    <ul>
+      <li><strong>Fondo degradado:</strong> Se usa un gradiente de colores vibrantes para el fondo, creando un ambiente llamativo y moderno.</li>
+      <li><strong>Tipografía:</strong> Se emplea la fuente <strong>Arial</strong> para mantener un diseño limpio y legible.</li>
+      <li><strong>Contenedor centrado:</strong> El CV está dentro de un contenedor con borde redondeado y sombra para hacerlo más atractivo.</li>
+      <li><strong>Títulos con estilo:</strong> Los encabezados (<code>h1</code>, <code>h2</code>) se resaltan con un tamaño grande y colores llamativos para separar las secciones del CV.</li>
+      <li><strong>Información de contacto:</strong> Se presenta en un contenedor con diseño en flexbox, asegurando una distribución proporcional de la información.</li>
+      <li><strong>Listas ordenadas:</strong> Se utiliza una lista de tipo cuadrado con márgenes para mantener la estructura organizada.</li>
+      <li><strong>Pied de página discreto:</strong> Un pie de página sencillo para créditos o información adicional.</li>
+    </ul>
+  </div>
+
+</body>
+</html>
